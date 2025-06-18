@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vocations>
+	<vocation id="0" clientid="0" name="Novice" description="a novice" gaincap="0" gainhp="0" gainmana="0" gainhpticks="4" gainhpamount="3" gainmanaticks="1" gainmanaamount="3" manamultiplier="1.0" attackspeed="2000" basespeed="270" soulmax="100" gainsoulticks="120" fromvoc="0">
+		<formula meleeDamage="1.0" distDamage="1.0" defense="1.0" armor="1.0" />
+		<skill id="0" multiplier="1.0" />
+		<skill id="1" multiplier="1.0" />
+		<skill id="2" multiplier="1.0" />
+		<skill id="3" multiplier="1.0" />
+		<skill id="4" multiplier="1.0" />
+		<skill id="5" multiplier="1.0" />
+		<skill id="6" multiplier="1.0" />
+	</vocation>
+		<vocation id="1" clientid="1" name="Warrior" description="a warrior" gaincap="0" gainhp="0" gainmana="0" gainhpticks="1" gainhpamount="3" gainmanaticks="2" gainmanaamount="2" manamultiplier="1.0" attackspeed="2000" basespeed="270" soulmax="100" gainsoulticks="120" fromvoc="0">
+		<formula meleeDamage="1.0" distDamage="0.5" defense="1.0" armor="1.0" />
+		<skill id="0" multiplier="1.0" />
+		<skill id="1" multiplier="1.0" />
+		<skill id="2" multiplier="1.0" />
+		<skill id="3" multiplier="1.0" />
+		<skill id="4" multiplier="1.0" />
+		<skill id="5" multiplier="1.0" />
+		<skill id="6" multiplier="1.0" />
+	</vocation>
+		<vocation id="2" clientid="2" name="Skirmisher" description="a skirmisher" gaincap="0" gainhp="0" gainmana="0" gainhpticks="1" gainhpamount="2" gainmanaticks="1" gainmanaamount="1" manamultiplier="1.0" attackspeed="2000" basespeed="270" soulmax="100" gainsoulticks="120" fromvoc="0">
+		<formula meleeDamage="0.5" distDamage="1.0" defense="1.0" armor="1.0" />
+		<skill id="0" multiplier="1.0" />
+		<skill id="1" multiplier="1.0" />
+		<skill id="2" multiplier="1.0" />
+		<skill id="3" multiplier="1.0" />
+		<skill id="4" multiplier="1.0" />
+		<skill id="5" multiplier="1.0" />
+		<skill id="6" multiplier="1.0" />
+	</vocation>
+		<vocation id="3" clientid="3" name="Elementalist" description="a elementalist" gaincap="0" gainhp="0" gainmana="0" gainhpticks="2" gainhpamount="2" gainmanaticks="1" gainmanaamount="3" manamultiplier="1.0" attackspeed="2000" basespeed="270" soulmax="100" gainsoulticks="120" fromvoc="0">
+		<formula meleeDamage="0.3" distDamage="0.3" defense="1.0" armor="1.0" />
+		<skill id="0" multiplier="1.0" />
+		<skill id="1" multiplier="1.0" />
+		<skill id="2" multiplier="1.0" />
+		<skill id="3" multiplier="1.0" />
+		<skill id="4" multiplier="1.0" />
+		<skill id="5" multiplier="1.0" />
+		<skill id="6" multiplier="1.0" />
+	</vocation>
+		<vocation id="4" clientid="4" name="Primalist" description="a primalist" gaincap="0" gainhp="0" gainmana="0" gainhpticks="2" gainhpamount="2" gainmanaticks="1" gainmanaamount="2" manamultiplier="1.0" attackspeed="2000" basespeed="270" soulmax="100" gainsoulticks="120" fromvoc="0">
+		<formula meleeDamage="0.3" distDamage="0.3" defense="1.0" armor="1.0" />
+		<skill id="0" multiplier="1.0" />
+		<skill id="1" multiplier="1.0" />
+		<skill id="2" multiplier="1.0" />
+		<skill id="3" multiplier="1.0" />
+		<skill id="4" multiplier="1.0" />
+		<skill id="5" multiplier="1.0" />
+		<skill id="6" multiplier="1.0" />
+	</vocation>
+</vocations>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Rabaz" script="Rabaz.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="130" head="39" body="38" legs="1" feet="1" addons="0" />
+	<voices>
+<voice text="Potions, runes, wands and rods, all here in the great Malunga's house." interval2="90" margin="1" yell="no" />
+</voices>
+<parameters>
+		<parameter key="keywords" value="magic;" />
+	<parameter key="module_shop" value="1" />
+		<parameter key="keyword_reply1" value="I'm selling spirit, health and mana potions, runes, wands, rods and spellbooks. If you'd like to see my offers, ask me for a {trade}." />
+		<parameter key="message_greet" value="Hi there and welcome to my little {magic} shop." />
+		<parameter key="message_farewell" value="Yeah, bye." />
+		<parameter key="message_walkaway" value="However." />
+		<parameter key="message_sendtrade" value="Of course, just browse through my wares. Or do you want to look only at {potions}, {wands} or {runes}?" />
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="Power Attack, 2313,5;
+		Foebringer,2310, 5;
+		True Shot,2292,5;
+		Salvo,2288,5;
+		Explosive Arrow,23723,5;
+		Bolt of law,2295,5;
+		Healing Blast,2273,5;
+		Sacrifice,2265,5;
+		Fire bolt,2303,5;
+		Energy bolt,2279,5;
+		Bolha,2278,5;
+		Magma Bomb,2304,5;
+		Blizzard,2274,5;
+		health potion,7618,50;
+		mana potion,7620,50;" />
+		<parameter key="shop_sellable" value="			Spellwand,7735,299;			Vial,2006,5		" />
+	</parameters>
+</npc>

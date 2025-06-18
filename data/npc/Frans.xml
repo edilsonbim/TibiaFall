@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Frans" script="Frans.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look typeex="2229" head="113" body="113" legs="113" feet="115" addons="0" />
+	<parameters>
+		<parameter key="message_greet" value="Beeee Greeeeted |PLAYERNAME|. What is your neeeed?" />
+		<parameter key="message_farewell" value="Bye." />
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;" />
+		<parameter key="keyword_reply1" value="I am selliiiing ruuuunes, wands, roooods and spellbooooooks." />
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="
+		Power Attack, 2313,5;
+		Foebringer,2310, 5;
+		True Shot,2292,5;
+		Salvo,2288,5;
+		Explosive Arrow,23723,5;
+		Bolt of law,2295,5;
+		Healing Blast,2273,5;
+		Sacrifice,2265,5;
+		Fire bolt,2303,5;
+		Energy bolt,2279,5;
+		Bolha,2278,5;
+		Magma Bomb,2304,5;
+		Blizzard,2274,5;
+		health potion,7618,50;
+		mana potion,7620,50;" />
+	</parameters>
+</npc>
